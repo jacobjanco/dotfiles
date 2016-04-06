@@ -43,7 +43,7 @@ let g:netrw_liststyle=3
 "highlight over 80 characters
 highlight limit_80c ctermbg=darkred ctermfg=white
 fun! <SID>limit_80c_ft()
-    if &ft !~ 'markdown\|txt\|text\|html'
+    if &ft !~ 'markdown\|txt\|text\|html\|java'
         match limit_80c /\%81v.\+/
     endif
 endfun
@@ -76,3 +76,8 @@ set showmode
 "goto left, goto right
 nnoremap H ^
 nnoremap L $
+
+"statusline tweaks
+set laststatus=2
+set statusline=%=[%t][%l/%L]
+highlight statusline ctermfg=121 ctermbg=233 cterm=NONE
