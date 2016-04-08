@@ -1,6 +1,9 @@
 "pathogen setup
 execute pathogen#infect()
 
+" set file refresh
+set autoread
+
 "line numbers
 set nu
 
