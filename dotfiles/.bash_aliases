@@ -13,3 +13,6 @@ alias td='vi $HOME/repos/personal-docs/to_do.md'
 # find
 alias fn='find . -name'
 alias fd='find . -type d -name'
+
+# weather
+alias weather="curl http://wttr.in/sanfrancisco"

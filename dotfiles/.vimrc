@@ -80,6 +80,9 @@ set showmode
 nnoremap H ^
 nnoremap L $
 
+" refresh file content if change outside of vim
+nnoremap <F5> :checktime<CR>
+
 "statusline tweaks
 set laststatus=2
 set statusline=%=[%t][%l/%L]

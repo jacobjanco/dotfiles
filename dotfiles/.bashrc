@@ -41,6 +41,7 @@ function __prompt_command() {
     local cya='\[\033[0;36m\]'
     local non='\[\033[0m\]'
     local blu='\[\033[0;34m\]'
+    local ylw='\[\033[1;33m\]'
 
     #256
     local bg='\[\033[48;5;'
@@ -62,7 +63,7 @@ function __prompt_command() {
 
     local ps1=''
     if [ "$LANG" == "en_US.UTF-8" ]; then
-        ps1+="┌─\u@\h:[$cya\w$non]$git_branch\n└[$ec][$tp]─\$ "
+        ps1+="┌─\u@$ylw\h$non:[$cya\w$non]$git_branch\n└[$ec][$tp]─\$ "
     else
         ps1+="\u@\h:[$cya\w$non]$git_branch\n[$ec][\t]\$ "
     fi
