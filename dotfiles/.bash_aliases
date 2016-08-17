@@ -10,6 +10,9 @@ alias gr='grep -r'
 # todo list
 alias td='vi $HOME/repos/personal-docs/to_do.md'
 
+# worklog
+alias wl='echo "# $(date)" >> $HOME/repos/personal-docs/work-log/$(date +%Y-%m-%d).md && vi $HOME/repos/personal-docs/work-log/$(date +%Y-%m-%d).md'
+
 # find
 alias fn='find . -name'
 alias fd='find . -type d -name'
