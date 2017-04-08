@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/jjanco/repos/personal-docs'
 let g:netrw_dirhist_2='/Users/jjanco/repos/jarvis-fork'
 let g:netrw_dirhist_3='/Users/jjanco/repos/fork-mesos-build/mk.d'
 let g:netrw_dirhist_4='/Users/jjanco/repos/dotfiles'
+let g:netrw_dirhist_5='/Users/jj/repos/dotfiles/dotfiles/.vim'

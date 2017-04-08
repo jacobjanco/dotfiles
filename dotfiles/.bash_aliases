@@ -21,4 +21,4 @@ alias fd='find . -type d -name'
 alias weather="curl http://wttr.in/sanfrancisco"
 
 # go paths
-alias gogl="cd /Users/jjanco/repos/go/src/gitlab.sd.apple.com/jjanco"
+alias gosrc="cd /Users/jjanco/repos/go/src/"
